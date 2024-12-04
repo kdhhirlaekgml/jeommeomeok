@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- 룰렛 결과 표시 -->
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="점심 메뉴를 골라보세요!"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- 룰렛 돌리기 버튼 -->
+    <Button
+        android:id="@+id/btnSpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="룰렛 돌리기"/>
+
+    <!-- 네이버 검색 버튼 -->
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="네이버에서 검색"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"/>
+
+    <!-- 설정 화면 이동 버튼 -->
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메뉴 설정"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
